@@ -37,9 +37,10 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://localhost:3306/21point?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
-    username: root
-    password:
+    url: jdbc:mysql://twentyonepoint.ce5cqvqcduyi.us-east-1.rds.amazonaws.com
+    #url_: jdbc:mysql://localhost:3306/21point?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+    username: uwaifo
+    password: 247Secured
     hikari:
       poolName: Hikari
       auto-commit: false
