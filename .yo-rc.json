@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.overstandapps.twentyone"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "monolith",
+    "baseName": "21point",
+    "packageName": "com.overstandapps.twentyone",
+    "packageFolder": "com/overstandapps/twentyone",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NzljYTk1M2NmMzRkNmE1YTAzNTlhN2I2YmY0ZDQ3YTcwOTk1ODM0NGY2ZjU5M2Y5OWNiYWI1NmRhNjdjNDI0ODE1YzU0NmE0ZDE4NGRlYjYwNzlhNTI0NzJlZTM2MGRkMTY4ODBhOWNkZDcxMDYxOGUzMjAyZGI4M2FiOTg2ZmM=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "journal",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1584384419913,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
