@@ -42,6 +42,18 @@ public class CacheConfiguration {
             createCache(cm, com.overstandapps.twentyone.domain.User.class.getName());
             createCache(cm, com.overstandapps.twentyone.domain.Authority.class.getName());
             createCache(cm, com.overstandapps.twentyone.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.overstandapps.twentyone.domain.Region.class.getName());
+            createCache(cm, com.overstandapps.twentyone.domain.Country.class.getName());
+            createCache(cm, com.overstandapps.twentyone.domain.Location.class.getName());
+            createCache(cm, com.overstandapps.twentyone.domain.Department.class.getName());
+            createCache(cm, com.overstandapps.twentyone.domain.Department.class.getName() + ".employees");
+            createCache(cm, com.overstandapps.twentyone.domain.Task.class.getName());
+            createCache(cm, com.overstandapps.twentyone.domain.Task.class.getName() + ".jobs");
+            createCache(cm, com.overstandapps.twentyone.domain.Employee.class.getName());
+            createCache(cm, com.overstandapps.twentyone.domain.Employee.class.getName() + ".jobs");
+            createCache(cm, com.overstandapps.twentyone.domain.Job.class.getName());
+            createCache(cm, com.overstandapps.twentyone.domain.Job.class.getName() + ".tasks");
+            createCache(cm, com.overstandapps.twentyone.domain.JobHistory.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
